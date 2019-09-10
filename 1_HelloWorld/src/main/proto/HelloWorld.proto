@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.digia.protobuf.HelloWorld";
+option java_outer_classname = "HelloWorldProtos";
+
+message HelloWorld {
+  string status = 1;
+  string message = 2;
+}
